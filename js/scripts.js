@@ -26,11 +26,11 @@ let totalPrice = kmToTravel * kmPrice;
 if (!isNaN(passengerAge)) {
 
     if (passengerAge < 18) {
-    totalPrice *= 0.8;
+    totalPrice = totalPrice * 0.8;
     } 
 
     else if (passengerAge >= 65) {
-    totalPrice *= 0.6;
+    totalPrice = totalPrice * 0.6;
     }
 
 }
