@@ -10,7 +10,6 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 */
 
-
 let kmToTravel = (prompt("Inserisci il numero di km da percorrere:"));
 console.log('Km da percorrere',kmToTravel, typeof kmToTravel);
 let kmToTravelNumber = parseInt(kmToTravel);
