@@ -37,9 +37,11 @@ if (!isNaN(passengerAge)) {
 }
 
 else {
-    alert('Inserisci i dati numero!');
+    alert('Inserisci i dati in numero!');
 }
 
 totalPrice = totalPrice.toFixed(2);
 
 console.log('Il prezzo del tuo biglietto è: ' + totalPrice + '€');
+
+document.getElementById('ticket').innerHTML=`Il prezzo del tuo biglietto è: ${totalPrice}€`;
